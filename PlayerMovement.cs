@@ -70,6 +70,5 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("X", lastX);
         anim.SetFloat("Y", lastY);
         anim.SetBool("Moving", moving);
-        Debug.Log(x);
     }
 }
